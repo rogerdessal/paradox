@@ -1,0 +1,50 @@
+#ChatComponent {
+    display: flex;
+    flex-direction: column;
+    place-content: flex-start;
+    width: 80vw;
+    height: 80vh;
+    background-color: #e4f7f7;
+}
+
+.ChatComponentForm {
+    margin-top: 20px;
+    align-self: center;
+}
+
+.ChatComponentForm input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.my-message {
+    width: auto;
+    margin-top: 15px;
+    background: #86BB71;
+    color: white;
+    padding: 18px 20px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.other-message {
+    background: #94C2ED;
+    color: white;
+    padding: 18px 20px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    width: auto;
+    position: relative;
+    margin-right: 15px;
+}
+
+#chatArea {
+    display: flex;
+    flex-direction: column;
+}
